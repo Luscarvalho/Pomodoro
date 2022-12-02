@@ -1,0 +1,58 @@
+<html lang="pt-BR">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/318ebcd3aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="theme">
+        <input id="switch" type="checkbox" name="theme" />
+        <label for="switch">Toggle</label>
+      </div>
+      <div id="work_time_text">
+        <p>Work Time</p>
+      </div>
+      <div id="break_time_text">
+        <p>Break Time</p>
+      </div>
+      <div class="counter" id="work_time">
+        <div>
+          <h1 id="work_minutes">25</h1>
+        </div>
+        <div>
+          <h1>:</h1>
+        </div>
+        <div>
+          <h1 id="work_seconds">00</h1>
+        </div>
+      </div>
+      <div class="counter" id="break_time">
+        <div>
+          <h1 id="break_minutes">05</h1>
+        </div>
+        <div>
+          <h1>:</h1>
+        </div>
+        <div>
+          <h1 id="break_seconds">00</h1>
+        </div>
+      </div>
+      <div class="buttons">
+        <div id="start">
+          <i class="fa-solid fa-play fa-2x"></i>
+        </div>
+        <div id="pause">
+          <i class="fa-solid fa-pause fa-2x"></i>
+        </div>
+        <div id="reset">
+          <i class="fa-solid fa-rotate-right fa-2x"></i>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
